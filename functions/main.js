@@ -14,4 +14,5 @@ list.append("snake");
 list.append("turtle");
 
 // test function toStrung()
+// ( fish ) -> ( dog ) -> ( cat ) -> ( parrot ) -> ( hamster ) -> ( snake ) -> ( turtle ) -> null
 console.log(list.toString());
