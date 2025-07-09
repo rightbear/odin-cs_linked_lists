@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-import { LinkedList } from "./classes.js"
+import { LinkedList } from "./classes.js";
 
 // example uses class syntax - adjust as necessary
 const list = new LinkedList();

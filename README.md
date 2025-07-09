@@ -1,2 +1,3 @@
 # odin-cs_linked_lists
-Practice of "Project: Linked Lists" in The Odin Project
+
+This is the thirteenth project to work in the "JavaScript Course"
