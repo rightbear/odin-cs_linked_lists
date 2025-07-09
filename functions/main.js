@@ -38,3 +38,40 @@ console.log(list.at("javascript"));
 console.log(list.at(0));
 console.log(list.at(8));
 console.log(`The node at index 5: ${list.at(5)}`);
+
+// test function pop()
+list.pop();
+list.pop();
+
+// ( fish ) -> ( dog ) -> ( cat ) -> ( parrot ) -> ( hamster ) -> null
+console.log(list.toString());
+
+// test function contains()
+console.log(`Is ( snake ) in the list? Answer: ${list.contains("snake")}`);
+console.log(`Is ( cat ) in the list? Answer: ${list.contains("cat")}`);
+
+// test function find()
+console.log(`The index of ( snake ): ${list.find("snake")}`);
+console.log(`The index of ( cat ): ${list.find("cat")}`);
+
+// test function insertAt()
+list.insertAt("hedgehog", 1);
+// ( hedgehog ) -> ( fish ) -> ( dog ) -> ( cat ) -> ( parrot ) -> ( hamster ) -> null
+console.log(list.toString());
+list.insertAt("peacock", 6);
+// ( hedgehog ) -> ( fish ) -> ( dog ) -> ( cat ) -> ( parrot ) -> ( peacock ) -> ( hamster ) -> null
+console.log(list.toString());
+list.insertAt("mink", 8);
+// ( hedgehog ) -> ( fish ) -> ( dog ) -> ( cat ) -> ( parrot ) -> ( peacock ) -> ( hamster ) -> null
+console.log(list.toString());
+
+// test function removeAt()
+list.removeAt(1);
+// ( fish ) -> ( dog ) -> ( cat ) -> ( parrot ) -> ( peacock ) -> ( hamster ) -> null
+console.log(list.toString());
+list.removeAt(7);
+// ( fish ) -> ( dog ) -> ( cat ) -> ( parrot ) -> ( peacock ) -> ( hamster ) -> null
+console.log(list.toString());
+list.removeAt(6);
+// ( fish ) -> ( dog ) -> ( cat ) -> ( parrot ) -> ( peacock ) -> null
+console.log(list.toString());
